@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luigi.Dev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/glightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- //////////////////////////////////////////////////////////////////////////////
+                                    START SECTION 1 - THE NAVBAR SECTION  
+    ///////////////////////////////////////////////////////////////////////////////////-->
+    <nav class="navbar navbar-expand-lg navbar-light menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/mi-logo-blanco-curva.svg" width="140" alt="logo image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" onclick="window.open('https://web.whatsapp.com/send?phone=5491132638788&text&app_absent=0','_blank')" class="rounded-pill btn-rounded">
+                    +54 9 11 3263 8788
+                    <span>
+                        <i class="fab fa-whatsapp"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////////
+                                START SECTION 2 - THE INTRO SECTION  
+    ///////////////////////////////////////////////////////////////////////////////////-->
+
+    <section id="home" class="intro-section">
+        <div class="container position-relative">
+            <div
+                class="row align-items-center text-white">
+                <!-- START THE CONTENT FOR THE INTRO  -->
+                <div class="col-md-6 intros text-start">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">Hey!, I'm Luigi</span>
+                        <br>
+                        <span class="display-2--description lh-base">
+                            what are you looking for?, I can create a custom solution for your business.
+                        </span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded">Let's Start
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+                <!-- START THE CONTENT -->
+                <div class="col-md-6 intros text-end">
+                    <div class="pulsos">
+                        <img src="images/arts/world-wide-web.svg" width="1500" alt="video illutration" class="img-fluid">
+                        <a href="#" class="glightbox">
+                            <span>
+                                <i class="fas fa-play-circle"></i>
+                            </span>
+                            <span class="border-animation border-animation--border-1"></span>
+                            <span class="border-animation border-animation--border-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#about" class="down down_white page-scroll">
+                        <span class="mouse"><span></span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+            <path
+            d="m 1440.0533,194.18793 -27.0488,-25.79778 c -24.4067,-23.43018 -70.7234,-65.06561 -119.5369,-76.942656 -48.8135,-11.87705 -100.9301,-3.35484 -149.7437,36.595236 -48.8135,39.95006 -86.5303,92.01014 -135.3438,85.85569 C 959.5666,208.17586 931.6651,110.64161 882.85147,99.08848 834.03794,87.967254 756.01221,166.04803 707.19868,166.37204 658.38515,166.04803 618.89586,109.62583 575.01796,74.264334 530.25475,31.312024 469.47301,5.622724 420.65948,11.777194 371.84595,17.499774 310.09099,72.544504 261.27746,95.5428 212.46393,118.97297 170.90154,141.75948 122.08801,136.36083 73.274486,130.96217 24.460958,107.20808 0.0541881,96.08683 L 8.8810273e-4,123.8989 C 24.407658,135.0201 73.221176,158.77423 122.03474,164.17285 c 48.81353,5.39868 101.20726,-1.03049 150.02079,-24.46068 48.81353,-22.9983 92.45088,-40.51038 141.26441,-46.232946 48.81353,-6.15449 83.93865,-2.89148 132.7522,31.336046 48.81353,34.87533 112.91145,79.3077 161.72497,79.6316 48.81353,-0.32402 104.97158,-33.26244 153.78511,-22.14121 48.81353,11.55312 90.28254,68.24576 139.09608,73.96832 48.8135,6.15449 97.627,-52.15101 146.4405,-92.10113 48.8136,-39.95005 97.6271,-63.70413 146.4406,-51.82711 48.8136,11.87706 97.6271,57.22579 122.0338,80.65597 L 1440,215.99998"
+            style="fill:#7fd6f2;fill-opacity:1;stroke-width:1.04787"
+            id="path1108-36"
+            sodipodi:nodetypes="ccssccccccsccsccccccsscc" />
+         <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,96L24,106.7C48,117,96,139,144,144C192,149,240,139,288,117.3C336,96,384,64,432,58.7C480,53,528,75,576,106.7C624,139,672,181,720,181.3C768,181,816,139,864,149.3C912,160,960,224,1008,229.3C1056,235,1104,181,1152,144C1200,107,1248,85,1296,96C1344,107,1392,149,1416,170.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+            id="path2" />
+         <path
+            d="m 1440,198 -27.0488,-25.79778 c -24.4067,-23.43018 -70.7234,-65.06561 -119.5369,-76.942658 -48.8135,-11.877048 -97.4819,4.963258 -146.2955,44.913338 -48.8135,39.95007 -97.627,98.25558 -146.4405,92.10113 C 951.86475,226.55147 919.61537,128.95243 870.80174,117.3993 821.98821,106.27807 756.61053,180.12286 707.797,180.44687 658.98347,180.12286 610.17004,134.77424 561.35651,99.898904 512.54293,65.671412 463.72941,41.917316 414.91588,48.071787 366.10235,53.794364 317.28882,88.345776 268.47529,111.34407 219.66176,134.77424 170.84823,145.57155 122.0347,140.1729 73.221192,134.77424 24.407663,111.02015 8.8810273e-4,99.898904 L -0.0524,127.71097 c 24.406765,11.1212 73.220294,34.87533 122.03384,40.27395 48.81353,5.39868 97.62706,-5.39862 146.44059,-28.82881 48.81353,-22.9983 98.79306,-43.974927 147.60659,-49.697494 48.81353,-6.154492 96.46106,4.024827 145.27461,38.252354 48.81353,34.87533 97.62706,80.22407 146.44058,80.54797 48.81353,-0.32402 97.62706,-45.67264 146.44059,-34.55141 48.81353,11.55313 97.62706,80.65596 146.4406,86.37852 48.8135,6.15449 97.627,-52.15101 146.4405,-92.10113 48.8136,-39.95005 97.6271,-63.70413 146.4406,-51.82711 48.8136,11.87706 97.6271,57.22579 122.0338,80.65597 l 24.4068,22.99827"
+            style="fill:#fcd76f;fill-opacity:1;stroke-width:1.04787"
+            id="path1108"
+            sodipodi:nodetypes="ccssccccccsccsccccccsscc" />
+         <path
+            d="m 1504.6477,210.37273 -27.1834,-29.67013 c -27.1832,-30.22734 -81.5499,-88.731862 -135.9165,-104.05447 -54.3666,-15.322614 -108.7332,15.322608 -163.0999,66.86231 -54.3666,51.5397 -108.7332,126.75981 -163.0998,118.81994 C 960.98147,254.94768 906.61485,165.79787 852.24811,150.89315 797.88149,136.54562 743.51486,195.05 689.14824,195.46801 634.78161,195.05 580.4151,136.54562 526.04847,91.552853 471.68179,47.395868 417.31518,16.750641 362.94855,24.690541 308.58193,32.073254 254.2153,76.64813 199.84867,106.31829 145.48205,136.54562 91.115428,150.47526 36.748802,143.51044 -17.617799,136.54562 -71.984423,105.9004 -99.167747,91.552853 l -0.05935,10.078367 c 27.183313,14.34749 81.549937,44.99276 135.91658,51.95753 54.366625,6.96486 108.733247,-6.96477 163.099867,-37.19212 54.36663,-29.670177 108.73325,-74.245024 163.09988,-81.627724 54.36663,-7.939928 108.73325,22.705285 163.0999,66.862314 54.36662,44.99276 108.73325,103.4973 163.09986,103.91516 54.36663,-0.41802 108.73325,-58.9224 163.09988,-44.57487 54.36662,14.90473 108.73325,104.05448 163.09993,111.43717 54.3665,7.93993 108.7331,-67.28016 163.0997,-118.81993 54.3667,-51.53966 108.7333,-82.184869 163.0999,-66.862297 54.3667,15.322637 108.7333,73.827157 135.9166,104.054497 l 27.1833,29.67013"
+            style="fill:#164359;fill-opacity:1;stroke-width:1.25608"
+            id="path1108-3"
+            sodipodi:nodetypes="ccssccccccsccsccccccsscc" />
+    </section>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                                START SECTION 3 - THE SERVICES  
+    ///////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-regular">Resultados asombrosos</h1>
+                <div class="heading-line mb-5"></div>
+            </div>
+            <!-- START THE DESCRIPTION CONTENT  -->
+            <div class="row pt-2 pb-2 mt-0 mb-3">
+                <div class="col-md-6 border-right">
+                    <div class="bg-white p-3">
+                        <h2 class="fw-regular text-capitalize text-center">
+                            Creatividad narrativa, diseño a medida y la tecnología adecuada.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-white p-4 text-start">
+                        <p class="fw-light">
+                            Tres piezas fundamentales de un sitio web, que al combinarlas obtenemos un sitio que se enfoca en la experiencia de usuario, la generación de prospectos y la reputación de la empresa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE CONTENT FOR THE SERVICES  -->
+        <div class="container">
+            <!-- START ACTUALIZACION  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 order-md-1 order-sm-2">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-laptop-code"></div>
+                        <h3 class="display-3--title mt-1">Mantené tu sitio actualizado</h3>
+                        <p class="lh-lg">
+                            Un sitio web desactualizado tiene riesgos de seguridad, no atrae clientes ni impulsa las ventas.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                            <span>
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end order-md-2 order-sm-1">
+                    <div class="services__pic">
+                        <img src="images/arts/web-developer.svg" width="500" alt="marketing illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- START DESIGN  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                    <div class="services__pic">
+                        <img src="images/arts/startup.svg" width="600" alt="web development illustration" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-meteor"></div>
+                        <h3 class="display-3--title mt-1">Con el usuario en mente</h3>
+                        <p class="lh-lg">
+                            Experiencias que sumergen a los visitantes en un viaje visual que hacen que su marca se destaque.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                            <span>
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container services__full-right">
+            <!-- START TOOLS & TECHNOLOGY  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 order-md-1 order-sm-2">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-code"></div>
+                        <h3 class="display-3--title mt-1">Fácil de usar.</h3>
+                        <p class="lh-lg">
+                            La tecnología correcta implementada en la plataforma adecuada, se convierten en una experiencia agradable y fácil de usar.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                            <span>
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end order-md-2 order-sm-1">
+                    <div class="services__pic">
+                        <img src="images/arts/tecnologias.png" alt="cloud hosting illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 6 - THE FAQ 
+    //////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+                <div class="heading-line"></div>
+                <p class="lead">frequently asked questions, get knowledge befere hand</p>
+            </div>
+            <!-- ACCORDION CONTENT  -->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div
+                        class="accordion" id="accordionExample">
+                        <!-- ACCORDION ITEM 1 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the main features?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 2 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    do i have to pay again after trial
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 3 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How can I get started after trial?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 4 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I be refunded if am not satisfied?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong>
+                                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                                    START SECTION 7 - THE PORTFOLIO  
+    //////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <h1 class="display-3 fw-regular text-capitalize">Una muestra de mi trabajo</h1>
+                <div class="heading-line"></div>
+                <p class="lead">
+                    El desafío es crear experiencias digitales que ayuden al cliente a crecer.
+                </p>
+            </div>
+
+            <!-- FILTER BUTTONS  -->
+            <div class="row mt-5 mb-4 g-3 text-center">
+                <div class="col-md-12 button-group-home filters-button-group">
+                    <button class="btn btn-outline-primary button is-checked" data-filter="*" type="button">All</button>
+                    <button class="btn btn-outline-primary button" data-filter=".websites" type="button">websites</button>
+                    <button class="btn btn-outline-primary button" data-filter=".design" type="button">design</button>
+                    <button class="btn btn-outline-primary button" data-filter=".mockup" type="button">mockup</button>
+                </div>
+            </div>
+
+            <!-- START THE PORTFOLIO ITEMS  -->
+            <div class="row grid" id="grid">
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/tambores-ruiz.jpg" alt="desarrollo web luigi.dev" title="digital web design" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Ruma Marketing</h4>
+                                <p>Desarrollo en wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/dentar.jpg" alt="desarrollo web luigi.dev" title="digital web design" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Ruma Marketing</h4>
+                                <p>Desarrollo en wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/hidrogruas-ricardo.jpg" alt="desarrollo web luigi.dev" title="Hidrogruas Ricardo web" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Empresa</h4>
+                                <p>Desarrollo en wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/reiki-org.jpg" alt="desarrollo web luigi.dev" title="Asociación de Reiki Mikao Usui" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Instituto Educativo</h4>
+                                <p>Desarrollo en wordpres</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/terapias.jpg" alt="desarrollo web luigi.dev" title="ecommerce de Asociacion de Reiki" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Instituto Educativo</h4>
+                                <p>Desarrollo en wordpress + woocommerce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item design">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/diptico-pacheco-vision.jpg" alt="diseño luigi.dev" title="Díptico óptica Pacheco Visión" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Óptica</h4>
+                                <p>Diseño de díptico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/flyer-personal-trainer.jpg" alt="diseño luigi.dev" title="Flyer Personal Trainer" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para personal trainer</h4>
+                                <p>Diseño de flyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item mockup">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/flyer-club-tbc.jpg" alt="diseño luigi.dev" title="portfolio 8 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Proyecto desarrollado para Club TBC</h4>
+                                <p>Diseño de flyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item websites">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name goes here 9</h4>
+                                <p>category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <button class="button showMore rounded-pill btn-rounded border-primary" id="showMore" >
+                    <span>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                    show more
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    START SECTION 8 - GET STARTED  
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section id="contact" class="get-started">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-regular text-capitalize">Todo listo para comenzar</h1>
+                <div class="heading-line"></div>
+                <p class="lh-lg">
+                    
+                </p>
+            </div>
+
+            <!-- START THE CTA CONTENT  -->
+            <div class="row text-white">
+                <div class="col-12 col-lg-6 gradient shadow p-3">
+                    <div class="cta-info w-100">
+                        <h4 class="display-4 fw-regular">Tu consulta <span class="icon fas fa-meteor"></span></h4>
+                        <p class="lh-lg"></p>
+                        <img id="rocket" src="images/arts/rocket/rocket-1.svg">
+                        <h3 class="display-3--brief">Cual es el siguiente paso?</h3>
+                        <ul class="cta-info__list">
+                            <li>Preparo la propuesta.</li>
+                            <li>La discutimos juntos.</li>
+                            <li>Empezamos.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 bg-white shadow p-3">
+                    <div class="form w-100 pb-2">
+                        <h4 class="display-3--title mb-5">start your project</h4>
+                        <form id="ajaxForm" target="_blank" action="https://formsubmit.co/devesaluis@gmail.com"  accept-charset="UTF-8" method="POST" class="row">
+                            <input type="hidden" name="_subject" value="New mail web Luigi.Dev">
+                            <div class="col-lg-6 col-md mb-3">
+                                <input type="text" name="nombre" placeholder="nombre" id="nombre" required class="shadow form-control form-control-lg">
+                            </div>
+                            <div class="col-lg-6 col-md mb-3">
+                                <input type="text" name="apellido" placeholder="apellido" id="apellido" required class="shadow form-control form-control-lg">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <input type="email" name="email" placeholder="email" id="email" required class="shadow form-control form-control-lg">
+                            </div>
+
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html">
+
+                            <input type="text" name="_honey" style="display:none">
+
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <input type="hidden" name="_autoresponse" value="Hey!!!, gracias por contactarme.  Ya me contaras sobre tu proyecto.">
+
+                            <input type="text" name="_honey" style="display:none">
+
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <div class="col-lg-12 mb-3">
+                                <textarea name="message" placeholder="deja tu mensaje aqui" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                            </div>
+                            <div class="text-center d-grid mt-1">
+                                <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
+                                    submit
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                                    START SECTION 9 - THE FOOTER  
+        ///////////////////////////////////////////////////////////////////////////////////////////////-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- CONTENT FOR THE MOBILE NUMBER  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"  viewbox="0 0 24 24" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                          </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">+54 9 11 3263 8788</a>
+                        <p class="contact-box__info--subtitle">
+                            tu consulta por whatsapp</p>
+                    </div>
+                </div>
+                <!-- CONTENT FOR EMAIL  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewbox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <polyline points="3 9 12 15 21 9 12 3 3 9"/>
+                            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/>
+                            <line x1="3" y1="19" x2="9" y2="13"/>
+                            <line x1="15" y1="13" x2="21" y2="19"/>
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="mailto:devesaluis@gmail.com" class="contact-box__info--title">luigi email</a>
+                        <p class="contact-box__info--subtitle">tu consulta por mail</p>
+                    </div>
+                </div>
+                <!-- CONTENT FOR LOCATION  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewbox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="18" y1="6" x2="18" y2="6.01"/>
+                            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5"/>
+                            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15"/>
+                            <line x1="9" y1="4" x2="9" y2="17"/>
+                            <line x1="15" y1="15" x2="15" y2="20"/>
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">Buenos Aires, Argentina</a>
+                        <p class="contact-box__info--subtitle">Tigre</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE SOCIAL MEDIA CONTENT  -->
+        <div class="footer-sm" style="background-color: #212121;">
+            <div class="container">
+                <div class="row py-4 text-center text-white">
+                    <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                        También podes encontrarme en las redes sociales
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <a href="https://www.linkedin.com/in/ldevesa/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/luigi.dev/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/luigi970" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE CONTENT FOR THE COMPANY INFO -->
+        <div class="container mt-5">
+            <div class="row text-white justify-content-center mt-3 pb-3">
+                <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Company name</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <p class="lh-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Products</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline company-list">
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">useful links</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline company-list">
+                        <li>
+                            <a href="#">
+                                Your Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Become an Affiliate</a>
+                        </li>
+                        <li>
+                            <a href="#">create an account</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">contact</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline company-list">
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE COPYRIGHT INFO  -->
+        <div class="footer-bottom pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center text-white">
+                    <div class="col-12">
+                        <div class="footer-bottom__copyright">
+                            &COPY; Copyright 2021
+                            <a href="#">Company1</a>
+                            | Created by
+                            <a href="mailto:devesaluis@gmail.com" target="_blank">Luigi.Dev</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACK TO TOP BUTTON  -->
+        <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+    </footer>
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
