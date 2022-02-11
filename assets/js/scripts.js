@@ -9,13 +9,15 @@ const lightbox = GLightbox({
 
 // *************************************************************
 
+setTimeout(function(){$grid.isotope('layout')}, 300);
+
 // init Isotope
 var initial_items = 6;
 var next_items = 3;
 var $grid = $('#grid').isotope({
     itemSelector: '.element-item',
     layoutMode: 'masonry',
-    stamp: '.element-item--static'
+    //stamp: '.element-item--static'
 });
 
 
