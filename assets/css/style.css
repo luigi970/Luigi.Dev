@@ -11330,10 +11330,12 @@ textarea.form-control-lg {
 .services__pic {
   max-width: 100%;
 }
-.services__full-right {
-  max-width: 100%;
-  padding-left: calc((100vw - 1140px) / 2);
-  padding-right: 0;
+@media (min-width: 768px) {
+  .services__full-right {
+    max-width: 100%;
+    padding-left: calc((100vw - 1140px) / 2);
+    padding-right: 0;
+  }
 }
 
 .visible_item {

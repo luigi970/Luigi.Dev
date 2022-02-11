@@ -107,7 +107,7 @@ function renameFrame() {
     if(count > 4) {
         count = 1; // se vuelve a uno para reiniciar
     }
-    document.getElementById("rocket").setAttribute('class', "rocket rocket-"+count);
+    document.getElementById("rocket").setAttribute('class', "img-fluid rocket rocket-"+count);
     document.getElementById("rocket").src="images/arts/rocket/rocket-" + count + ".svg";
     framesByTime();
 };
