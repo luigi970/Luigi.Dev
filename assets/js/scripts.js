@@ -17,7 +17,7 @@ var next_items = 3;
 var $grid = $('#grid').isotope({
     itemSelector: '.element-item',
     layoutMode: 'masonry',
-    //stamp: '.element-item--static'
+    stamp: '.element-item--static'
 });
 
 // imagesLoaded is a library js - detect when images are loaded
