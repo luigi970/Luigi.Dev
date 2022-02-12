@@ -9,7 +9,7 @@ const lightbox = GLightbox({
 
 // *************************************************************
 
-setTimeout(function(){$grid.isotope('layout')}, 300);
+//setTimeout(function(){$grid.isotope('layout')}, 300);
 
 // init Isotope
 var initial_items = 6;
@@ -18,6 +18,11 @@ var $grid = $('#grid').isotope({
     itemSelector: '.element-item',
     layoutMode: 'masonry',
     //stamp: '.element-item--static'
+});
+
+// imagesLoaded is a library js - detect when images are loaded
+$grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
 });
 
 
