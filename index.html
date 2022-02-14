@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luigi.Dev</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" type="text/css" href="assets/vendors/css/glightbox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
                 <button type="button" onclick="window.open('https://web.whatsapp.com/send?phone=5491132638788&text&app_absent=0','_blank')" class="rounded-pill btn-rounded">
                     +54 9 11 3263 8788
                     <span>
-                        <i class="fab fa-whatsapp"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                     </span>
                 </button>
             </div>
@@ -64,7 +64,7 @@
                 <!-- CONTENT FOR THE INTRO  -->
                 <div class="col-md-6 intros text-start">
                     <h1 class="display-2">
-                        <span class="display-2--intro">Hey!, Soy Luigi</span>
+                        <span class="display-2--intro">Hey!, Soy Luis</span>
                         <br>
                         <span class="display-2--description lh-base">
                             Me encuentro construyendo mi sitio. En que puedo ayudarte ?
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
                     <div class="services__content">
-                        <div class="icon d-block fas fa-meteor"></div>
+                        <div class="icon d-block fa-solid fa-rocket"></div>
                         <h3 class="display-3--title mt-1">Con el usuario en mente</h3>
                         <p class="lh-lg">
                             Experiencias que sumergen a los visitantes en un viaje visual que hacen que su marca se destaque.
@@ -222,6 +222,30 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <!-- CONTENT SOCIAL MEDIA  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                    <div class="services__pic">
+                        <img src="images/arts/social-media-1.svg" width="600" alt="web development illustration" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="services__content">
+                        <div class="icon d-block fa-solid fa-share-nodes"></div>
+                        <h3 class="display-3--title mt-1">Mostrá lo que haces en las redes</h3>
+                        <p class="lh-lg">
+                            Generar una comunidad de personas con los mismos intereses para alcanzar el objetivo deseado.
+                        </p>
+                        <button type="button" onclick="location.href = '#formContacto'; return false;" class="rounded-pill btn-rounded border-primary">Vamos a eso
+                            <span>
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -238,18 +262,24 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div
-                        class="accordion" id="accordionExample">
+                        class="accordion" id="accordionFaq">
                         <!-- ACCORDION ITEM 1 -->
                         <div class="accordion-item shadow mb-3">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Por qué una landing page?
+                                    Razones para tener un sitio web
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
-                                    <strong>Las páginas de destino</strong>
-                                    son una solución a un problema común: los usuarios se distraen o se pierden en su sitio web, cuando todo lo que realmente se está buscando es que realicen una acción. Esa acción puede ser tan variada como el producto o servicio que estás promocionando. Algunos sitios recolectan información de contactos, otros incentivan las compras, otros son inspiracionales y muchos más.
+                                    <ol>
+                                        <li>Es el eje para todo el marketing de tu negocio o emprendimiento.</li>
+                                        <li>Es la vidriera para vender productos o servicios, informar lo que haces, fomentar acciones, etc.</li>
+                                        <li>Te ayuda a generar prospectos.</li>
+                                        <li>Permite a negocios locales competir con grandes marcas.</li>
+                                        <li>Te ayuda a construir credibilidad.</li>
+                                        <li>Se adapta a todos los dispositivos.</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -257,20 +287,13 @@
                         <div class="accordion-item shadow mb-3">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Razones para tener un sitio web
+                                    Por qué una landing page?
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
-                                    <ol>
-                                        <li>Es el eje para todo el marketing de tu negocio.</li>
-                                        <li>Es la vidriera para vender productos o servicios, informar lo que haces, fomentar acciones, etc.</li>
-                                        <li>Te ayuda a generar prospectos.</li>
-                                        <li>Permite a negocios locales competir con grandes marcas.</li>
-                                        <li>Te ayuda a construir credibilidad.</li>
-                                        <li>Una página web para negocio es económica.</li>
-                                        <li>Se adapta a todos los dispositivos.</li>
-                                    </ol>
+                                    <strong>Las páginas de destino</strong>
+                                    son una solución a un problema común: los usuarios se distraen o se pierden en su sitio web, cuando todo lo que realmente se está buscando es que realicen una acción. Esa acción puede ser tan variada como el producto o servicio que estás promocionando. Algunos sitios recolectan información de contactos, otros incentivan las compras, otros son inspiracionales y muchos más.
                                 </div>
                             </div>
                         </div>
@@ -281,7 +304,7 @@
                                     Controlá tu historia online - Redes Sociales
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
                                     Construir tu presencia online en redes sociales, es muy importante, aunque no es lo más conveniente. Tu negocio va a estar siempre atado a las políticas de estas plataformas. Por lo tanto las redes sociales actúan como complemento de tu sitio web, generando sinergia juntos, trabajando en equipo.
                                 </div>
@@ -294,9 +317,9 @@
                                     Plataformas web
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
-                                    Si bien un sitio web se puede construir escribiendo el código desde cero, utilizando el gran variedad de opciones que existe entre lenguajes, frameworks, librerias, etc, su costo y mantenimiento es mucho mayor. Una muy buena opción son las plataformas o CMS. Las hay de código abierto y gratuitas como <b>Wordpress</b> o de pago como Wix. Estas son sólo dos ejemplos entre la enorma cantidad que existe. Lo importante es la comunidad que hay tras ellas que permite mantenerlas siempre actualizadas. Si bien estas plataformas te permiten armar el sitio a ti mismo, es recomendable contratar a un desarrollador que pueda sacar el máximo de la misma, logrando un producto de calidad profesional.
+                                    Si bien un sitio web se puede construir escribiendo el código desde cero, utilizando la gran variedad de opciones que existe entre lenguajes, frameworks, librerias, etc, su costo y mantenimiento es mucho mayor. Una muy buena opción son las plataformas o CMS. Las hay de pago o de código abierto y gratuitas como <b>Wordpress</b>. En estas últimas, lo importante es la comunidad que hay tras ellas, que hacen posible mantenerlas siempre actualizadas. Si bien estas plataformas te permiten armar el sitio a ti mismo, es recomendable contratar a un desarrollador que pueda sacar el máximo de la misma, logrando un producto de calidad profesional.
                                 </div>
                             </div>
                         </div>
@@ -458,10 +481,10 @@
             </div>
 
             <!-- CTA CONTENT  -->
-            <div class="row text-white">
-                <div class="col-12 col-lg-6 gradient shadow p-3">
+            <div class="row">
+                <div class="col-12 col-lg-6 gradient text-white shadow p-3">
                     <div class="cta-info w-100">
-                        <h4 class="display-4 fw-regular">Tu consulta <span class="icon fas fa-meteor"></span></h4>
+                        <h4 class="display-5 fw-regular">Iniciemos <span class="icon fa-solid fa-rocket"></span></h4>
                         <p class="lh-lg"></p>
                         <img id="rocket" src="images/arts/rocket/rocket-1.svg">
                         <h3 class="display-3--brief">Cual es el siguiente paso?</h3>
@@ -474,7 +497,7 @@
                 </div>
                 <div class="col-12 col-lg-6 bg-white shadow p-3">
                     <div class="form w-100 pb-2">
-                        <h4 class="display-3--title mb-5">start your project</h4>
+                        <h4 class="display-3--title mb-5">Tu consulta</h4>
                         <form id="ajaxForm" target="_blank" action="https://formsubmit.co/16536a81c8e95ec51899ef0627d6c3c2"  accept-charset="UTF-8" method="POST" class="row">
                             <input type="hidden" name="_subject" value="New mail web Luigi.Dev">
                             <div class="col-lg-6 col-md mb-3">
