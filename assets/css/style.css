@@ -11159,6 +11159,10 @@ textarea.form-control-lg {
   background-color: #164359;
   border-color: #164359;
 }
+.btn-primary:active {
+  background-color: #7fd6f2;
+  border-color: #7fd6f2;
+}
 
 @keyframes pulse-border {
   0% {
