@@ -103,7 +103,7 @@ hideItems(initial_items);
 
 // *************************************************************
 
-// Images animated js
+// Images Rocket animated js
 
 var count = 0;
 function framesByTime() {

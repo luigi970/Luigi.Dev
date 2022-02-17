@@ -11223,10 +11223,18 @@ textarea.form-control-lg {
 .menu li {
   padding: 0 0.7rem;
 }
-.menu li a {
-  color: #fff !important;
-  text-transform: capitalize;
-  font-weight: 600;
+.menu .navbar-nav .nav-link {
+  color: #fff;
+}
+.menu .navbar-nav .nav-link:hover, .menu .navbar-nav .nav-link:focus {
+  color: #7fd6f2;
+}
+.menu .navbar-nav .nav-link.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+.menu .navbar-nav .show > .nav-link,
+.menu .navbar-nav .nav-link.active {
+  color: #164359;
 }
 
 .intro-section {
@@ -11267,45 +11275,46 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
-.down {
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-}
-.down .mouse {
-  position: relative;
-  display: inline-block;
-  width: 30px;
-  height: 50px;
-  margin: 0 auto;
-  border: 2px solid #333;
-  border-radius: 24px;
-  opacity: 0.6;
-  cursor: pointer;
-  vertical-align: middle;
-}
-.down .mouse span {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 50%;
-  width: 8px;
-  height: 12px;
-  margin: 0px 0 0 -4px;
-  background: #333;
-  border-radius: 20px;
-  animation: scroll 2s linear infinite;
-}
+@media (min-width: 576px) {
+  .down {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+  .down .mouse {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 24px;
+    opacity: 0.6;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  .down .mouse span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    width: 8px;
+    height: 12px;
+    margin: 0px 0 0 -4px;
+    background: #333;
+    border-radius: 20px;
+    animation: scroll 2s linear infinite;
+  }
 
-.down_white.down .mouse {
-  border-color: #fff;
+  .down_white.down .mouse {
+    border-color: #fff;
+  }
+  .down_white.down .mouse span {
+    background: #fff;
+  }
 }
-.down_white.down .mouse span {
-  background: #fff;
-}
-
 .services {
   position: relative;
   padding: 1rem 0;
