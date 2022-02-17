@@ -11275,46 +11275,50 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
-@media (min-width: 576px) {
-  .down {
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-  }
-  .down .mouse {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 50px;
-    margin: 0 auto;
-    border: 2px solid #333;
-    border-radius: 24px;
-    opacity: 0.6;
-    cursor: pointer;
-    vertical-align: middle;
-  }
-  .down .mouse span {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 50%;
-    width: 8px;
-    height: 12px;
-    margin: 0px 0 0 -4px;
-    background: #333;
-    border-radius: 20px;
-    animation: scroll 2s linear infinite;
-  }
-
-  .down_white.down .mouse {
-    border-color: #fff;
-  }
-  .down_white.down .mouse span {
-    background: #fff;
+@media (max-width: 575.98px) {
+  #mouse {
+    display: none;
   }
 }
+.down {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.down .mouse {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 50px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 24px;
+  opacity: 0.6;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.down .mouse span {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  width: 8px;
+  height: 12px;
+  margin: 0px 0 0 -4px;
+  background: #333;
+  border-radius: 20px;
+  animation: scroll 2s linear infinite;
+}
+
+.down_white.down .mouse {
+  border-color: #fff;
+}
+.down_white.down .mouse span {
+  background: #fff;
+}
+
 .services {
   position: relative;
   padding: 1rem 0;
