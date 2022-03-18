@@ -73,10 +73,10 @@
                 <!-- CONTENT FOR THE INTRO  -->
                 <div class="col-md-6 intros text-start">
                     <h1 class="display-2">
-                        <span class="display-2--intro">Hey!, Soy Luis</span>
+                        <span class="display-2--intro">Hey!, I'm Luis</span>
                         <br>
                         <span class="display-2--description lh-base">
-                            Me encuentro construyendo mi sitio. En que puedo ayudarte ?
+                            I work as a freelance or in a team.<br>Design and development of digital products.
                         </span>
                     </h1>
                     <button type="button" onclick="location.href = '#resultados-asombrosos'; return false;" class="rounded-pill btn-rounded">Comenzamos
@@ -136,7 +136,7 @@
     <section id="services" class="services">
         <div class="container">
             <div class="row text-center">
-                <h1 id="resultados-asombrosos" class="display-3 fw-regular">Resultados asombrosos</h1>
+                <h1 id="resultados-asombrosos" class="display-4 fw-regular">Resultados asombrosos</h1>
                 <div class="heading-line mb-5"></div>
             </div>
             <!-- DESCRIPTION CONTENT  -->
@@ -263,7 +263,7 @@
     <section id="faq" class="faq">
         <div class="container">
             <div class="row text-center">
-                <h1 id="faq" class="display-3 fw-bold text-uppercase">faq</h1>
+                <h1 id="faq" class="display-4 fw-bold text-uppercase">faq</h1>
                 <div class="heading-line"></div>
                 <p class="lead">Algunas datos interesantes para compartir</p>
             </div>
@@ -345,7 +345,7 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row text-center mt-5">
-                <h1 id="portfolio" class="display-3 fw-regular text-capitalize">Una muestra de mi trabajo</h1>
+                <h1 id="portfolio" class="display-4 fw-regular text-capitalize">Una muestra de mi trabajo</h1>
                 <div class="heading-line"></div>
                 <p class="lead">
                     El desafío es crear experiencias digitales que ayuden al cliente a crecer.
@@ -356,15 +356,26 @@
             <div class="row mt-5 mb-4 g-3 text-center">
                 <div class="col-md-12 button-group-home filters-button-group">
                     <button class="btn btn-outline-primary button is-checked" data-filter="*" type="button">All</button>
-                    <button class="btn btn-outline-primary button" data-filter=".websites" type="button">websites</button>
-                    <button class="btn btn-outline-primary button" data-filter=".design" type="button">design</button>
-                    <button class="btn btn-outline-primary button" data-filter=".mockup" type="button">mockup</button>
+                    <button class="btn btn-outline-primary button" data-filter=".website" type="button">web design & development</button>
+                    <button class="btn btn-outline-primary button" data-filter=".design" type="button">digital design</button>
+                    <button class="btn btn-outline-primary button" data-filter=".maintenance" type="button">web maintenance</button>
                 </div>
             </div>
 
             <!-- START THE PORTFOLIO ITEMS  -->
             <div class="row grid" id="grid">
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item maintenance">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/doitbcnacademy.jpg" alt="mantenimiento web luigi.dev" title="digital web design" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Academia para desarrollo de talentos en Barcelona, España</h4>
+                                <p>Mantenimiento y mejoras en wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item website">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/tambores-ruiz.jpg" alt="desarrollo web luigi.dev" title="digital web design" class="img-fluid">
                         <div class="portfolio-info">
@@ -375,7 +386,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item maintenance">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio/dejardfumar.jpg" alt="mantenimiento web luigi.dev" title="digital web design" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Ecommerce venta método dejar de fumar en Barcelona, España</h4>
+                                <p>Mantenimiento y mejoras en wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 element-item website">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/dentar.jpg" alt="desarrollo web luigi.dev" title="digital web design" class="img-fluid">
                         <div class="portfolio-info">
@@ -386,7 +408,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item website">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/hidrogruas-ricardo.jpg" alt="desarrollo web luigi.dev" title="Hidrogruas Ricardo web" class="img-fluid">
                         <div class="portfolio-info">
@@ -397,7 +419,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item website">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/reiki-org.jpg" alt="desarrollo web luigi.dev" title="Asociación de Reiki Mikao Usui" class="img-fluid">
                         <div class="portfolio-info">
@@ -408,7 +430,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item website">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/terapias.jpg" alt="desarrollo web luigi.dev" title="ecommerce de Asociacion de Reiki" class="img-fluid">
                         <div class="portfolio-info">
@@ -430,7 +452,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
+                <div class="col-lg-4 col-md-6 element-item design">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/flyer-personal-trainer.jpg" alt="diseño luigi.dev" title="Flyer Personal Trainer" class="img-fluid">
                         <div class="portfolio-info">
@@ -441,24 +463,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 element-item mockup">
+                <div class="col-lg-4 col-md-6 element-item design">
                     <div class="portfolio-box shadow">
                         <img src="images/portfolio/flyer-club-tbc.jpg" alt="diseño luigi.dev" title="portfolio 8 picture" class="img-fluid">
                         <div class="portfolio-info">
                             <div class="caption">
                                 <h4>Proyecto desarrollado para Club TBC</h4>
                                 <p>Diseño de flyer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 element-item websites">
-                    <div class="portfolio-box shadow">
-                        <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-                        <div class="portfolio-info">
-                            <div class="caption">
-                                <h4>project name goes here 9</h4>
-                                <p>category project</p>
                             </div>
                         </div>
                     </div>
@@ -482,7 +493,7 @@
     <section id="contact" class="get-started">
         <div class="container">
             <div class="row text-center">
-                <h1 id="formContacto" class="display-3 fw-regular text-capitalize">Todo listo para comenzar</h1>
+                <h1 id="formContacto" class="display-4 fw-regular text-capitalize">Todo listo para comenzar</h1>
                 <div class="heading-line"></div>
                 <p class="lh-lg">
                     
@@ -649,7 +660,7 @@
                 <div class="col-12 col-lg-6 mb-4 mx-auto">
                     <h5 class="text-capitalize fw-bold">Actividades</h5>
                     <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-                    <ul class="list-inline company-list">
+                    <!--<ul class="list-inline company-list">
                         <li>
                             <a href="#">Lorem ipsum</a>
                         </li>
@@ -662,7 +673,7 @@
                         <li>
                             <a href="#">Lorem ipsum</a>
                         </li>
-                    </ul>
+                    </ul>-->
                 </div>
             </div>
         </div>
