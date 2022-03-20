@@ -1,6 +1,6 @@
 // init Glightbox
 const lightbox = GLightbox({
-    'href': 'https://www.youtube.com/watch?v=swr2Zlo7ex-A',
+    'href': 'https://www.youtube.com/watch?v=wr2Zlo7ex-A',
     'type': 'video',
     'source': 'youtube', //vimeo, youtube or local
     'width': 900,
